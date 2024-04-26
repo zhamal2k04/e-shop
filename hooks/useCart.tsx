@@ -144,7 +144,6 @@ localStorage.setItem("eShopCartItems",JSON.stringify(null))
         handleCartQtyDecrease,
         handleClearCart,
     }
-    return <CartContext.Provider value={value} {...props}/>
 }
 
 export const useCart =()=>{
